@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f8fc;
+}
+
+/* Navigation */
+.navbar {
+    background: #1045a3;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.navbar h1 {
+    margin: 5px 0 10px 0;
+    font-size: 2em;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 6px 14px;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+
+.nav-links a:hover {
+    background: #0b376e;
+}
+
+/* Sections */
+h2 {
+    text-align: center;
+    color: #1045a3;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+hr {
+    border: none;
+    border-top: 2px dashed #517dda;
+    margin: 36px 0;
+}
+
+/* About section */
+.about {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.profile-img {
+    width: 140px;
+    border-radius: 50%;
+    border: 3px solid #1045a3;
+    margin-bottom: 10px;
+}
+
+/* Skills table */
+.skills-table {
+    margin: 0 auto 26px auto;
+    border-collapse: collapse;
+    width: 70%;
+    background: #fff;
+    box-shadow: 0 1px 6px #aad2f4;
+}
+
+.skills-table th,
+.skills-table td {
+    border: 1px solid #bcd5ef;
+    padding: 10px 15px;
+    text-align: left;
+}
+
+.skills-table th {
+    background: #1045a3;
+    color: #fff;
+}
+
+.skills-table tr:nth-child(even) {
+    background: #eaf1fb;
+}
+
+/* Project Boxes */
+.project-box {
+    background: #fff;
+    margin: 18px auto;
+    width: 60%;
+    border-radius: 8px;
+    box-shadow: 0 1px 8px #bdd9fb;
+    text-align: center;
+    padding: 18px 0 10px 0;
+}
+
+/* Contact Form */
+.contact-form {
+    background: #fff;
+    max-width: 350px;
+    margin: 0 auto 30px auto;
+    padding: 24px 15px;
+    border-radius: 8px;
+    box-shadow: 0 1px 6px #bdd9fb;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    font-weight: bold;
+    color: #1045a3;
+    margin: 8px 0 3px 0;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #bcd5ef;
+    font-size: 1em;
+}
+
+.contact-form textarea {
+    min-height: 50px;
+}
+
+.contact-form button {
+    margin-top: 8px;
+    background: #1045a3;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #0b376e;
+}
+
+/* Back to Top Button */
+.back-to-top {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    background: #1045a3;
+    color: #fff;
+    border-radius: 18px;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 2px 8px #bdd9fb;
+}
+
+.back-to-top:hover {
+    background: #0b376e;
+}

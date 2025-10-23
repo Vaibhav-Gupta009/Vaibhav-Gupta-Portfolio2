@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <div class="navbar">
+        <h1>My Portfolio</h1>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <h2 id="about">About Me</h2>
+    <div class="about">
+        <img src="pfp.png" class="profile-img" alt="Profile">
+        <p>Hello! My name is Vaibhav Gupta. I am learning web development and this is my first portfolio website.</p>
+    </div>
+
+    <hr>
+
+    <!-- Skills Section -->
+    <h2 id="skills">My Skills</h2>
+    <table class="skills-table">
+        <tr>
+            <th>Skill</th>
+            <th>Level</th>
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td>Beginner</td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td>Beginner</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>Learning</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- Projects Section -->
+    <h2 id="projects">My Projects</h2>
+    <div class="project-box">
+        <h3>Project 1</h3>
+        <a href="myproject1.html" class="my-button">Click Me!</a>
+
+        <p>A simple HTML & CSS webpage.</p>
+    </div>
+    <div class="project-box">
+        <h3>Project 2</h3>
+        <a href="myproject2.html" class="my-button">Click Me!</a>
+
+
+        <p>Another awesome mini project.</p>
+    </div>
+
+    <hr>
+
+    <!-- Contact Section -->
+    <h2 id="contact">Contact Me</h2>
+    <form class="contact-form">
+        <label>Name:</label>
+        <input type="text" placeholder="Enter your name">
+        <label>Email:</label>
+        <input type="email" placeholder="Enter your email">
+        <label>Message:</label>
+        <textarea placeholder="Write your message"></textarea>
+        <button type="submit">Send</button>
+    </form>
+
+    <button class="back-to-top" onclick="window.scrollTo({top:0, behavior:'smooth'});">↑ Back to Top</button>
+</body>
+
+</html>
